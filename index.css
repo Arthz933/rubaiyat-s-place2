@@ -1,0 +1,130 @@
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button {
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 5px;
+    width: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+button-ativo {
+    background-color: rgb(170, 216, 149);
+    color: white;
+}
+button:hover {
+    background: rgb(170, 216, 149);
+}
+
+img {
+    width: 320px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Libertinus Sans", sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+input[type="button"] {
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+input[type="text"] {
+    font-weight: bold;
+}
+
+button[id="faturamento"] {
+    background-color: rgba(180, 180, 180, 0.801);
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    width: 105px;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.conteudo-formulario input {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+    border: 3.5px solid rgb(145, 145, 145);
+}
+
+form {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(145, 140, 140);
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(190deg, rgba(0, 0, 0, 0.897)0%, #3d3d3d);
+}
+
+
+
+a2 {
+    color: rgb(219, 109, 109);
+}
+
+a1 {
+    color: rgb(143, 201, 143);
+}
+
+.espaco-resultado {
+    color: #a0a0a0;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 20px;
+}
+
+.submit {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(102, 155, 102);
+    font-family: serif;
+}
+
+.conteudo-formulario.error input{
+    border-color: rgb(202, 31, 31);
+
+}
+
+
+.conteudo-formulario a {
+    position: absolute;
+    bottom: -10px;
+    left: 2;
+    visibility: hidden;
+}
+
+
+

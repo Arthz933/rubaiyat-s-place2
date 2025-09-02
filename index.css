@@ -130,11 +130,12 @@ a1 {
 
 button[class="contagemdetarefas"] {
     background-color: white;
-    color: #4b4848;;
+    color: rgb(71, 71, 71);
     padding: 10px;
     margin: 30px;
     width: 105px;
 }
+
 
 
 

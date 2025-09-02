@@ -20,6 +20,7 @@ button-ativo {
     background-color: rgb(170, 216, 149);
     color: white;
 }
+
 button:hover {
     background: rgb(170, 216, 149);
 }
@@ -129,11 +130,12 @@ a1 {
 
 button[class="contagemdetarefas"] {
     background-color: white;
-    color: rgba(180, 180, 180, 0.801);
+    color: #4b4848;;
     padding: 10px;
     margin: 30px;
     width: 105px;
 }
+
 
 
 

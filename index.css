@@ -54,14 +54,6 @@ input[type="text"] {
     font-weight: bold;
 }
 
-button[id="faturamento"] {
-    background-color: rgba(180, 180, 180, 0.801);
-    color: white;
-    padding: 10px;
-    margin: 30px;
-    width: 105px;
-}
-
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -89,7 +81,6 @@ form {
     margin: 0 auto;
     background: linear-gradient(190deg, rgba(0, 0, 0, 0.897)0%, #3d3d3d);
 }
-
 
 
 a2 {
@@ -135,6 +126,12 @@ button[class="contagemdetarefas"] {
     margin: 30px;
     width: 105px;
 }
+
+.contagemdetarefas: hover {
+    color: gray;
+    transition: 0.8s;
+}
+
 
 
 

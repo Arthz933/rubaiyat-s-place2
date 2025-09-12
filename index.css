@@ -105,11 +105,6 @@ a1 {
     font-family: serif;
 }
 
-.conteudo-formulario.error input{
-    border-color: rgb(202, 31, 31);
-
-}
-
 
 .conteudo-formulario a {
     position: absolute;
@@ -127,10 +122,8 @@ button[class="contagemdetarefas"] {
     width: 105px;
 }
 
-.contagemdetarefas: hover {
-    color: gray;
-    transition: 0.8s;
-}
+
+
 
 
 

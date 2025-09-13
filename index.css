@@ -136,9 +136,10 @@ h4 {
 }
 
 .btnreinicia:hover {
-    background-color: #ff6666;
+    background-color: rgb(255, 102, 102);
     transition: 1s;
 }
+
 
 
 

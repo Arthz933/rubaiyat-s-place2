@@ -27,7 +27,7 @@ listadetarefas.addEventListener("click", () => {
  function checaonomedobarbeiro() {
     const barbeiro = nomedobarbeiro.value;
 
-    console.log(barbeiro);
+
 
     if(barbeiro === "") {
         funcaoerror(nomedobarbeiro, "preencha um nome !")
@@ -43,6 +43,7 @@ function funcaoerror(input, message) {
     formItem.classname = "conteudo-formulario.error"
 
 }
+
 
 
 

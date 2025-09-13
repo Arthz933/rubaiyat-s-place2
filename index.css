@@ -130,7 +130,6 @@ h4 {
 button[id="btnreinicia"]  {
     background-color: gray;
     color: white;
-    margin: 25px 0 auto;
     width: 115px;
     padding: 12px;
 }
@@ -139,6 +138,7 @@ button[id="btnreinicia"]:hover {
     background-color: rgb(255, 102, 102);
     transition: 1s;
 }
+
 
 
 

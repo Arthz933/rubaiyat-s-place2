@@ -5,6 +5,7 @@ const botaodetarefas = document.getElementById("botaodetarefa")
 const contador = document.getElementById("contador")
 let cliques = 0;
 const listadetarefas = document.getElementById("tarefas")
+const btntarefas = document.getElementById("btn")
 
 
 form.addEventListener( "submit", (event) =>  {
@@ -16,7 +17,7 @@ event.preventDefault();
 
 listadetarefas.addEventListener("click", () => {
     cliques++; 
-    contador.textContent = " olá " + nomedobarbeiro.value + ", você tem " + cliques + " tarefas concluídas !"  // CONSIDERAR CLIQUES APENAS NA LISTA DE TAREFAS
+    contador.textContent = " olá " + nomedobarbeiro.value + ", você tem " + cliques + " tarefas concluídas !"  // CONSIDERA CLIQUES APENAS NA LISTA DE TAREFAS
   });
  function checaonomedobarbeiro() {
     const barbeiro = nomedobarbeiro.value;
@@ -35,4 +36,5 @@ function funcaoerror(input, message) {
     textMessage.innerText = message;
 
     formItem.classname = "conteudo-formulario.error"
+
 }

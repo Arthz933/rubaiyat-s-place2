@@ -132,13 +132,14 @@ button[id="btnreinicia"]  {
     color: white;
     width: 115px;
     padding: 12px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 button[id="btnreinicia"]:hover {
     background-color: rgb(255, 102, 102);
     transition: 1s;
 }
+
 
 
 

@@ -15,7 +15,7 @@ event.preventDefault();
 })
 
 function reiniciapagina() {
-  btnzeratarefas = location.reload();
+  btnzeratarefas.onclick = location.reload();
 }
 
 listadetarefas.addEventListener("click", () => {
@@ -43,6 +43,7 @@ function funcaoerror(input, message) {
     formItem.classname = "conteudo-formulario.error"
 
 }
+
 
 
 

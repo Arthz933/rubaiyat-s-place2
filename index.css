@@ -127,6 +127,20 @@ h4 {
     text-align: center;
 }
 
+.btnreinicia {
+    background-color: gray;
+    color: white;
+    margin: 25px;
+    width: 115px;
+    padding: 12px;
+}
+
+.btnreinicia:hover {
+    background-color: #ff6666;
+    transition: 1s;
+}
+
+
 
 
 

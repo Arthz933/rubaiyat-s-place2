@@ -31,6 +31,8 @@ listadetarefas.addEventListener("click", () => {
 
     if(barbeiro === "") {
         funcaoerror(nomedobarbeiro, "preencha um nome !")
+    } else {
+        funcaoerror();
     }
 }  
 
@@ -43,6 +45,7 @@ function funcaoerror(input, message) {
     formItem.classname = "conteudo-formulario.error"
 
 }
+
 
 
 

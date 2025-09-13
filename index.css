@@ -127,7 +127,7 @@ h4 {
     text-align: center;
 }
 
-.btnreinicia {
+button[id="btnreinicia"]  {
     background-color: gray;
     color: white;
     margin: 25px;
@@ -135,10 +135,11 @@ h4 {
     padding: 12px;
 }
 
-.btnreinicia:hover {
+button[id="btnreinicia"]:hover {
     background-color: rgb(255, 102, 102);
     transition: 1s;
 }
+
 
 
 

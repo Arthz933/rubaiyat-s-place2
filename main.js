@@ -5,7 +5,7 @@ const botaodetarefas = document.getElementById("botaodetarefa")
 const contador = document.getElementById("contador")
 let cliques = 0;
 const listadetarefas = document.getElementById("tarefas")
-const btntarefas = document.getElementByClassName("btnreinicia")
+const btnzeratarefas = document.getElementById("btnreinicia")
 
 
 form.addEventListener( "submit", (event) =>  {
@@ -14,7 +14,7 @@ event.preventDefault();
  checaonomedobarbeiro();
 })
 
-function reiniciapagina(btntarefas) {
+function reiniciapagina(btnzeratarefas) {
   location.reload();
 }
 
@@ -43,4 +43,5 @@ function funcaoerror(input, message) {
     formItem.classname = "conteudo-formulario.error"
 
 }
+
 

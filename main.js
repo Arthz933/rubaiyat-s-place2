@@ -14,9 +14,9 @@ event.preventDefault();
  checaonomedobarbeiro();
 })
 
-function reiniciapagina() {
-  btnzeratarefas = location.reload();
-}
+btnzeratarefas.addEventListener("click", () => {
+ location.reload();
+});
 
 listadetarefas.addEventListener("click", () => {
     cliques++; 
@@ -43,6 +43,7 @@ function funcaoerror(input, message) {
     formItem.classname = "conteudo-formulario.error"
 
 }
+
 
 
 

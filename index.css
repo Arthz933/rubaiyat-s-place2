@@ -64,9 +64,16 @@ a2 {
     color: rgb(219, 109, 109);
 }
 .espaco-resultado {
-    color: #a0a0a0;
+    color: #942e2e;
     font-family: "Libertinus Sans", sans-serif;
     font-size: 20px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 15px;
+    height: 50px;
+    border-style: double;
+    border-color: rgb(116, 118, 119);
+    text-align: center;
+    width: 473px;
 }
 h4 {
     text-align: center;
@@ -83,4 +90,9 @@ button[id="btnreinicia"]:hover {
 }
 #divbtnzeratarefas {
     text-align: center;
+    margin: 30px;
+}
+
+#tarefas {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

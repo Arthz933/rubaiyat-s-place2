@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUBAIYAT´s place</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: rgba(0, 0, 0, 0.945);">
     <header>
         <div class="center">
-            <img src="./img/Design-sem-nome-9-768x321-removebg-preview (1).png">
+            <img src="img/Design-sem-nome-9-768x321-removebg-preview (1) (1).png">
         </div>
     </header>
 
@@ -33,64 +33,74 @@
                 <a2></a2> <br><br>
 
                 <div id="tarefas">
-                    fazer café <button id="botaodetarefa">feito</button> <br><br>
+                    fazer café <button class="botaodetarefa">feito</button> <br><br>
                     
-                    ligar os dois ar-condicionados <button id="botaodetarefa">feito</button> <br><br>
+                    ligar os dois ar-condicionados <button class="botaodetarefa">feito</button> <br><br>
                     
-                    abrir a agenda <button id="botaodetarefa">feito</button> <br><br>
+                    abrir a agenda <button class="botaodetarefa">feito</button> <br><br>
                     
-                    colocar música <button id="botaodetarefa">feito</button> <br><br>
+                    colocar música <button class="botaodetarefa">feito</button> <br><br>
                     
-                    ligar Tv <button id="botaodetarefa">feito</button> <br><br>
+                    ligar Tv <button class="botaodetarefa">feito</button> <br><br>
                     
-                    ligar o pc <button id="botaodetarefa">feito</button> <br><br>
+                    ligar o pc <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar porta <button id="botaodetarefa">feito</button> <br><br>
+                    limpar porta <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar espelhos <button id="botaodetarefa">feito</button> <br><br>
+                    limpar espelhos <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar cadeiras <button id="botaodetarefa">feito</button> <br><br>
+                    limpar cadeiras <button class="botaodetarefa">feito</button> <br><br>
                     
-                    varrer durante o dia <button id="botaodetarefa">feito</button> <br><br>
+                    varrer durante o dia <button class="botaodetarefa">feito</button> <br><br>
                     
-                    passar pano <button id="botaodetarefa">feito</button> <br><br>
+                    passar pano <button class="botaodetarefa">feito</button> <br><br>
                     
-                    colocar cheirinho <button id="botaodetarefa">feito</button> <br><br>
+                    colocar cheirinho <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar banco <button id="botaodetarefa">feito</button> <br><br>
+                    limpar banco <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar bancada <button id="botaodetarefa">feito</button> <br><br>
+                    limpar bancada <button class="botaodetarefa">feito</button> <br><br>
                     
-                    limpar escada <button id="botaodetarefa">feito</button> <br><br>
+                    limpar escada <button class="botaodetarefa">feito</button> <br><br>
                     
-                    repor toalha <button id="botaodetarefa">feito</button> <br><br>
+                    repor toalha <button class="botaodetarefa">feito</button> <br><br>
                     
-                    sair tarde <button id="botaodetarefa">feito</button> <br><br>
+                    sair tarde <button class="botaodetarefa">feito</button> <br><br>
                     
-                    tirar o lixo <button id="botaodetarefa">feito</button> <br><br>
+                    tirar o lixo <button class="botaodetarefa">feito</button> <br><br>
                     
-                    repor papel <button id="botaodetarefa">feito</button> <br><br>
+                    repor papel <button class="botaodetarefa">feito</button> <br><br>
                     
-                    ver se tem cheirinho <button id="botaodetarefa">feito</button> <br><br>
+                    ver se tem cheirinho <button class="botaodetarefa">feito</button> <br><br>
                     
-                    bater o tapete <button id="botaodetarefa">feito</button> <br><br><br>
+                    bater o tapete <button class="botaodetarefa">feito</button> <br><br><br>
                 </div>
 
-                <div class="espaco-resultado">
-                    <p>Resultado: <span id="contador"></span></p> <br>
-                    <p>para contabilizar uma tarefa clique apenas no botão "feito"</p>
+                <div class="espaco-resultado" id="espaco-resultado">
+                    <p><span id="contador"></span></p> <br>
                 </div>
 
-                <div id="divbtnzeratarefas" style="margin: 30px;">
-                    <button id="btnreinicia">zerar lista</button><br>
-                </div>
+                
             </div>
+            
+            
         </form>
+        <div id="modal-alert" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center;">
+            <div style="background:#000000; border:1px solid #161616; padding:40px; border-radius:8px; text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; position:relative; z-index:10000;">
+            <p style="color:white; font-size:1.2rem; margin-bottom:20px;">Preencha um nome antes de continuar</p>
+                <button id="btnfecharmodal" style="background:#8ae796; color:rgb(36, 90, 20); border:none; padding:10px 30px; border-radius:4px; cursor:pointer; font-size:1rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+            ok
+        </button>
+    </div>
+</div>
     </div>
 
     <h2>
         <div style="margin: 50px;">
             "Excelência e dedicação para realçar a melhor versão da aparência masculina."
+        </div>
+        <div id="divbtnzeratarefas">
+        <button id="btnreinicia">zerar lista</button><br>
         </div>
     </h2>
 
@@ -101,7 +111,6 @@
 </body>
 
 </html>
-
 
 
 

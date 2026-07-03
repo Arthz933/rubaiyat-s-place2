@@ -73,7 +73,7 @@ a2 {
     border-style: double;
     border-color: rgb(116, 118, 119);
     text-align: center;
-    width: 320px;
+    width: min(100%, 475px);
 }
 h4 {
     text-align: center;

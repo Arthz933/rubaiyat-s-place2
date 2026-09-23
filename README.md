@@ -1,6 +1,6 @@
 📋 Task Checklist
 
-🚧 **Projeto em desenvolvimento**
+✅ **Projeto concluído**
 
 Um aplicativo prático e direto para organização de tarefas do dia a dia, focado em clareza e controle.
 
